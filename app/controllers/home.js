@@ -4,7 +4,7 @@ var express = require('express'),
   Article = mongoose.model('Article');
 
 module.exports = function(app) {
-  app.use('/api', router);
+  app.use('/', router);
 };
 
 router.get('/', function(req, res, next) {

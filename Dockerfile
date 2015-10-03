@@ -1,3 +1,4 @@
 FROM node:onbuild
+MAINTAINER Thomas Asadurian <Tasadurian@gmail.com>
 
-EXPOSE 8000
+EXPOSE 8888
